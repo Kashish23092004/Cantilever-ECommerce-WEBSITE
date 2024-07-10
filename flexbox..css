@@ -1,0 +1,15 @@
+/* one d method to arrange a container in row and column */
+/* for flexbox there are two axis main and cross axis,and bth the axis are at 90 degrees to each other */
+/* FLEXBOX DIRECTION - ROW,ROW-REVERSE,COLUMN,COLUMN-REVERSE */
+/* FLEXBOX always try to fit in container,this is the property of flex */
+/* JUSTIFY CONTENT- FLEX-START,flex-end,center,space around-use to give space between all the flex,space-between- use to divide the box into equal space*/
+div{
+    height:100px;
+    width:100px;
+    display: inline-block;
+    border:2px solid black;
+}  
+/* align-content- alignment of space between and around the content */
+/* align-self:flex-end (use to give priority to its - always in priority*/
+/* flex-grow-how much a flex is grow relative to the rest of flex item */
+/* flex-shrink-/* flex-grow-how much a flex is shrink relative to the rest of flex item  */

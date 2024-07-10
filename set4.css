@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.nav{
+    display: flex;
+    width: 2000px;
+    background-color: rgba(2, 1, 1, 0.918);
+    margin-top :0px;
+  
+}
+.amazon{
+   
+    color:orange;
+    margin-right: 150px;
+    margin-top:0px;
+   
+}
+.account{
+    margin-right: 150px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.mycart{
+    margin-right: 150px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.contactus{
+    margin-right: 150px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.searchbar{
+    margin-top:0px;
+
+ 
+}
+.button{
+    text-align: center;
+    margin-top:15px;
+    background-color:orange; 
+    color:white;
+   height: 21.2px;
+   margin-top:0px;
+   
+}
+/* margin units in css are percent,where we take the percent according to the parent */
+/* Em(font size,relatuve to font size of parent) (width in em means change in its on font size,)*/
+/* (Root em - text change in refrence to the outer element ) */
+/* vh (view point height)-give complete height according to screen, samme with vw */

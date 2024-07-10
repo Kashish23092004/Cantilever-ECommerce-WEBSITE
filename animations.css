@@ -1,0 +1,9 @@
+/* use to smootly do transition */
+.box{
+    height:50px;
+    width:50px;
+    background-color: brown;
+    transition-property: all; 
+    transition-duration:2s;
+}
+/* will study later */

@@ -1,0 +1,31 @@
+/* use unsplash free website gor generating many photos */
+div{
+    height: 100px;
+    width:100px;
+    background-color:aqua;
+    border:2px solid black;
+    display: inline-block;
+}
+#box1{
+    background-image: url(gwen-weustink-I3C1sSXj1i8-unsplash.jpg);
+    background-size:cover;
+    /* cover the bakground completely */
+}
+#box2{
+    background-image: url(laura-college-K_Na5gCmh38-unsplash.jpg);
+    background-size:contain;
+    /* photo can be fully visible and if needed also repeat itself */
+} 
+
+    
+#box4{
+   
+    background-image: url(ray-hennessy-xUUZcpQlqpM-unsplash.jpg);
+    background-size:auto;
+    /* by default */
+ }
+ #box3{
+    background-image: url(ricky-kharawala-adK3Vu70DEQ-unsplash.jpg);  
+    background-size:cover;
+}
+/* 

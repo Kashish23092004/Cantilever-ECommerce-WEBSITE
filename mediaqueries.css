@@ -1,0 +1,26 @@
+/* use for responsive website in phone */
+.div{
+    height:100px;
+    width:100px;
+    background-color: chartreuse;
+}
+/* @media(width:600px){
+    .div{
+        background-color: aqua;
+    }
+} */
+/* @media(min-width:600px){
+    /* if width is more than 600px colour change */
+    
+    /* .div{
+        background-color: aqua;
+    }
+} */ 
+
+@media(min-width:200px)and (max-width:500px){
+.div{
+
+background-color:red;
+
+}
+}

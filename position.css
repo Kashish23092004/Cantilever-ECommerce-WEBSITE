@@ -1,0 +1,41 @@
+div{
+    height: 100px;
+    width:100px;
+    background-color:aqua;
+    border:2px solid black;
+    display: inline-block;
+}
+#box1{
+    position: static; 
+    /* can not be change further */
+  top :50px
+    /* now there arre positions as top,bottom,right,left where we can change the  width or height byy the refrence of element */
+}
+#box2{
+    position:relative;
+    /* in relative the new position is changed by taking its on refrence, for eg if I put 
+    10px top in relative ,this means box will move 10px above as compared to its original one */
+    /* top:20px; (top se 20px neeche shift hoga) */
+    /* bottom: 25px; */
+     
+} 
+/* #box3{
+    position:absolute;
+    /* position relative to its closests ancestor,it should be non static
+     /* for box3 te ancestor is  body tag * */
+     /* bottom:3px;} */
+    
+#box4{
+    position: fixed;
+    bottom:0;
+    
+  
+ }
+ #box3{
+    position: sticky;
+    top:0px;
+    left:20px;
+ }
+/* 
+ Z INDEX - USED TO DECIDE WHICH BOX OVERLAP WHOMif two boxes are overlapping then the one with the 
+/* more + value is on top , */ 

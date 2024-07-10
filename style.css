@@ -1,0 +1,42 @@
+/* #box{
+  background-color: blue;
+} */
+ /* .HELLO{
+  color:red;
+ } */
+
+ /* // TEXT ALIGN  */ 
+
+ /* use to allow text at center/left or right */
+ .p1{
+  text-align: left;
+  text-decoration: blue underline;
+  font-weight:bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* use to give fonts */
+  /* if wants a cut text-decoration: line-through; */
+ }
+ /* text decoration use for underline,overline text */
+ /* if you add text decoration as null no text will be under or over line by default */
+
+
+ /* line height-line between tweo heights */
+ .p2{
+  /* line-height: 10px; */
+  line-height:2 px;
+  text-transform: uppercase;   /* normal case */
+   border:2px solid red;
+   border-radius: 10px;
+   text-align: center;
+
+ }
+ .head{
+  /* background-color: palevioletred; */
+  /* if we want opacity */
+  /* background-color: rgb(255, 0, 0,1); here we did opacity 1 for dark */
+  background-color: rgb(255, 0, 0,0.5);
+  width: 200px;
+ border:2px dotted yellow;
+ padding-left:25px;
+ margin-left:25px;
+ }
